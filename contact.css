@@ -18,7 +18,7 @@
     /* margin-left: 2.5rem; */
     padding: 1rem;
     margin-left: 5rem;
-    width: 450px;
+    width: 400px;
 }
 
 
@@ -112,7 +112,7 @@ iframe:hover{
 
 form{
     padding: 1rem 2rem;
-    width: 38vw;
+    width: 90%;
     /* min-width: 280px; */
     /* height: 100%; */
     /* border: 2px solid black; */
@@ -167,6 +167,26 @@ form label{
     background-color: #006608;
 }
 
+
+
+@media (max-width:1254px) {
+    #contact-left-side{
+        
+        width: 80%;
+    }
+
+    iframe{
+        width: 100%;
+        height: 400px;
+    }
+
+    #contact-right-side{
+        width: 70%;
+    }
+
+    
+
+}
 
 @media (max-width: 768px) {
     form{

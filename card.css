@@ -187,8 +187,7 @@
     
     }
 
-    
-
+   
 }
 
 
@@ -202,7 +201,9 @@
     
     }
 
-    .card img{
-    object-fit: fill;    
+   
+    .card-container{
+     
+        border-radius: 10px;
     }
 }
