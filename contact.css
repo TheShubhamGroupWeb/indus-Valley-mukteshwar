@@ -5,9 +5,11 @@
 }
 
 #contact-wrapper{
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
+    justify-content: space-around;
+    align-items: center;
     margin-top: 3rem;
     flex-wrap: wrap;
     gap: 2rem;
@@ -16,9 +18,9 @@
 
 #contact-left-side{
     /* margin-left: 2.5rem; */
-    padding: 1rem;
-    margin-left: 5rem;
-    width: 400px;
+    /* padding: 1rem; */
+    margin-left: 5.5rem;
+    width: 600px;
 }
 
 
@@ -72,7 +74,7 @@
 }
 
 iframe{
-    /* width: 450px; */
+    width: 100%;
     height: 200px;
     filter: grayscale(1);
 }
@@ -88,10 +90,10 @@ iframe:hover{
 
     color: #fff;
     margin: 0 3rem;
-    padding: 2rem;
+    /* padding: 2rem; */
     /* height: 80vh; */
     /* border: 2px solid red; */
-    width: 50%;
+    width: 40%;
 }
 
 
@@ -111,7 +113,7 @@ iframe:hover{
 }
 
 form{
-    padding: 1rem 2rem;
+    padding: 0.8rem 2rem;
     width: 90%;
     /* min-width: 280px; */
     /* height: 100%; */
@@ -127,7 +129,7 @@ form{
 
 form input {
     width: 100%;
-    padding: 1.3rem;
+    padding: 1rem;
     border: none;
     outline: none;
     border-radius: 1rem;
@@ -152,7 +154,8 @@ form label{
 
 #contact-right-side button{
     color: #fff;
-    background-color: rgb(46, 180, 46);
+    /* background-color: rgb(46, 180, 46); */
+    background-color:  #006608;;
     padding: 1rem;
     margin-top: 1rem;
     outline: none;
@@ -164,52 +167,74 @@ form label{
 #contact-right-side button:hover{
     opacity: 0.9;
     transform: scale(1.1);
-    background-color: #006608;
+    background-color: #134c18;
 }
 
 
 
-@media (max-width:1254px) {
-    #contact-left-side{
-        
-        width: 80%;
+@media (max-width:1280px) {
+    #contact-left-side{        
+        width: 500px;
     }
 
     iframe{
         width: 100%;
-        height: 400px;
+        height: 200px;
     }
 
     #contact-right-side{
-        width: 70%;
+        width: 40%;
+        height: 100%;
     }
-
-    
 
 }
 
-@media (max-width: 768px) {
-    form{
-        padding: 2rem;
-        width: 75vw;
+@media (max-width:1024px) {
+    #contact-left-side{        
+        width: 75%;
     }
 
-    #contact-wrapper{
-        display: flex;
-        justify-content: space-between;
-        /* align-items: center; */
-        margin-top: 3rem;
-        flex-wrap: wrap;
-        gap: 1rem;
+    #contact-left-side{
+        /* margin-left: 2.5rem; */
+        /* padding: 1rem; */
+        margin-left: 0rem;
+        width: 600px;
     }
+
+    #contact-right-side{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 68%;
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+    /* form{
+        padding: 2rem;
+        width: 72vw;
+    } */
+
     
-   
+
+  
+    
+    #contact-right-side{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
     
     #contact-left-side{
         /* margin-left: 2.5rem; */
         padding: 1rem;
         /* margin-left: 4rem; */
-        width: 80%;
+        width: 78%;
     }
 
     iframe{
